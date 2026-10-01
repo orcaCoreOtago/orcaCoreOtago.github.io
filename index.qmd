@@ -1,0 +1,26 @@
+---
+title: "ORCA Standard Operating Procedures"
+subtitle: "Otago Repository for Core Analysis · University of Otago"
+listing:
+  id: sop-list
+  contents: sops.yml
+  type: grid
+  grid-columns: 2
+  sort: "title"
+  categories: true
+  fields: [title, description, categories, date]
+  field-display-names:
+    date: "Updated"
+  date-format: "D MMM YYYY"
+  sort-ui: false
+  filter-ui: true
+page-layout: full
+title-block-banner: true
+---
+
+Each SOP has a web version and a printable PDF (the **PDF** link at the top of each SOP). Use the search box or the categories on the right to find the procedure you need.
+
+If an SOP is wrong or out of date, tell the ORCA lab manager or open an issue on the SOP's GitHub repository.
+
+::: {#sop-list}
+:::

@@ -1,0 +1,21 @@
+# THE LIST OF SOPs. This is the only place you add a new SOP.
+# The home page cards and the navbar menus are both built from this file.
+#
+# Keep exactly this layout for each entry:
+#   - title:       shown on the card and in the menu
+#     description: one sentence, shown on the card
+#     path:        the SOP's web address (https://orcacoreotago.github.io/<repo-name>/)
+#     categories:  [Category]  -> becomes a navbar menu; use the same spelling each time
+#     date:        YYYY-MM-DD, last major revision
+
+- title: "Printing storage labels with BarTender"
+  description: "Setting up the ORCA database connection on a PC and printing storage and core labels from the sample database."
+  path: https://orcacoreotago.github.io/bartender-label-sop/
+  categories: [Lab informatics]
+  date: 2026-09-30
+
+- title: "CTD sea cable re-termination"
+  description: "Fault-finding and re-terminating the CTD sea cable on the SBE 32/33 rosette system."
+  path: https://orcacoreotago.github.io/ctd-seacable-sop/
+  categories: [Field equipment]
+  date: 2026-09-27
